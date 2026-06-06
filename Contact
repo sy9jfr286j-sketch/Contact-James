@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Contact Information</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #333;
+            margin-top: 0;
+        }
+
+        h2 {
+            color: #444;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        .important {
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+
+        .contact {
+            margin-bottom: 15px;
+        }
+
+        .footer {
+            margin-top: 25px;
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        a {
+            color: #0066cc;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <h1>Your Name</h1>
+
+    <p class="important">
+        If I am lost, injured, or unable to communicate,
+        please contact the people listed below.
+    </p>
+
+    <h2>Primary Emergency Contact</h2>
+
+    <div class="contact">
+        <strong>Name:</strong> Jane Smith<br>
+        <strong>Relationship:</strong> Spouse<br>
+        <strong>Phone:</strong>
+        <a href="tel:+447700900001">+44 7700 900001</a>
+    </div>
+
+    <h2>Secondary Emergency Contact</h2>
+
+    <div class="contact">
+        <strong>Name:</strong> David Smith<br>
+        <strong>Relationship:</strong> Brother<br>
+        <strong>Phone:</strong>
+        <a href="tel:+447700900002">+44 7700 900002</a>
+    </div>
+
+    <h2>Medical Information</h2>
+
+    <p>
+        No known medical conditions.
+    </p>
+
+    <h2>Owner Contact Information</h2>
+
+    <p>
+        Email:
+        <a href="mailto:your@email.com">
+            your@email.com
+        </a>
+    </p>
+
+    <div class="footer">
+        Last updated: June 2026
+    </div>
+
+</div>
+
+</body>
+</html>
